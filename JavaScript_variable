@@ -1,0 +1,25 @@
+<script>  
+var x = 10;  
+var y = 20;  
+var z=x+y;  
+document.write(z);  
+
+</script>  
+
+<script>  
+    function abc(){  
+    var x=10;//local variable ,Inside the Function
+    }  
+    </script>  
+
+<script>  
+    var data=200;//gloabal variable  , Outside the Function
+    function a(){  
+    document.writeln(data);  
+    }  
+    function b(){  
+    document.writeln(data);  
+    }  
+    a();//calling JavaScript function  
+    b();  
+    </script>  
